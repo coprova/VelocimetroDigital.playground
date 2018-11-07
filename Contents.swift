@@ -8,3 +8,11 @@ enum Velocidades : Int {
         self = velocidadinicial
     }
 }
+class auto {
+var velocidad : Velocidades
+       init(){
+velocidad = Velocidades.Apagado
+
+
+}
+}
